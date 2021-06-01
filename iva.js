@@ -1,9 +1,11 @@
 // Calcular precio con IVA
 
 // Variables
-
 //  Calcular el precio con IVA de un producto
 //  Mostrar textos con precios con y sin IVA
+
+// Funciones
+//  Crear funciones para calcular cuota de IVA e importe total
 
 
 let ivaNormal = 10;
@@ -11,7 +13,7 @@ let precio = 50;
 
 let importe;
 
-function calcularCuota (base, iva = 10) {
+function calcularCuota (base, iva = 21) {
     return base * iva /100;
 }
 
