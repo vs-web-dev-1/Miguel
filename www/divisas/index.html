@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Divisas</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../styles/marx.css">
+    <!-- <link rel="stylesheet" href="./../styles/miligram.css"> -->
+</head>
+<body>
+    <header>
+      <h1>Últimas cotizaciones del Euro</h1>
+    </header>
+    <main>
+      <h2>Fecha: <span id="fecha"></span></h2>
+      <!-- <dl>
+        <dt>USD</dt>
+        <dd>1.22</dd>
+        <dt>GBT</dt>
+        <dd>0.87</dd>
+      </dl> -->
+      <ul id="cotizaciones">
+        <li>
+          <span class="divisa">CHF : </span><span class="contravalor">1.09</span>
+        </li>
+        <li>
+          <span class="divisa">JPY : </span><span class="contravalor">133.79</span>
+        </li>
+      </ul>
+
+      <ul>
+         <span> Introduce la cantidad a convertir</span>
+            <form action="">
+                <input type="text" id="cantidad">
+                <button type="button" id="convertir">Convertir</button>
+                <p>Aquí va el resultado</p>
+            </form>
+      </ul>
+      <script src="./main.js"></script>
+    </main>
+  </body>
+</html>
+
